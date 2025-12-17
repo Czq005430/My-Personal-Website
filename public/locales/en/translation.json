@@ -1,0 +1,87 @@
+
+{
+  "name": "Albert Chen",
+  "title": "Software Engineering Junior / Agent Developer",
+  "motto": "Aspiring to contribute to the field of AI Agents.",
+  "avatarUrl": "https://youke2.picui.cn/s1/2025/12/16/6941550171597.jpg",
+  "socials": {
+    "github": "https://github.com/Czq005430",
+    "linkedin": "https://linkedin.com",
+    "email": "mailto:3098802452@qq.com"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "research": "Research",
+    "education": "Education"
+  },
+  "about": {
+    "title": "About",
+    "p1": "As a third-year Software Engineering student, I am deeply passionate about the potential of AI Agents and their application in solving real-world problems. My academic journey and personal projects are geared towards building a strong foundation in this innovative field.",
+    "p2": "My main focus these days is on developing practical skills in agent development, machine learning, and full-stack engineering. I am always seeking new challenges and opportunities to learn, grow, and contribute to impactful projects.",
+    "download_cv": "Download CV"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "date": "JUL 2025 - SEP 2025",
+        "title": "Digital Product & Intelligent Process Intern",
+        "company": "EVE Energy (Digital Economy Dept.)",
+        "link": "https://www.evebattery.com/",
+        "description": [
+          "Designed and developed RPA+AI automation flows for B2B applications, including 'Intelligent News Filtering' and 'Bulk Corporate Information Retrieval'.",
+          "Utilized RPA to simulate manual operations and integrated AI modules (Python scripts) to automate web scraping, classification, and structured data export from platforms like Dow Jones.",
+          "Researched low-code AI Agent platforms (e.g., Coze) and conducted functional testing for an 'Intelligent Data Query' product, ensuring delivery quality by writing and executing test cases."
+        ],
+        "skills": ["RPA", "Python", "Coze", "Sketch"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "LangChain SQL Generator Agent",
+        "description": "This project automatically converts natural language questions into SQL queries and executes them, helping non-technical users interact directly with databases. It combines advanced NLP with a flexible agent architecture to enhance scalability and user experience.",
+        "stack": ["LangChain", "Python", "MySQL", "DeepSeek API"]
+      },
+      {
+        "name": "National Mathematical Modeling Competition (H Prize)",
+        "description": "As team leader, developed an agricultural decision optimization model for crop planting. Engineered a data pipeline with Python (pandas) and Excel, and built a Mixed Integer Programming (MIP) model using PuLP to handle over 10 constraints, optimizing solutions with a simulated annealing algorithm.",
+        "stack": ["Python", "Excel", "SPSS", "PuLP"]
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "items": [
+      {
+        "topic": "Deep Learning-Assisted EEG Diagnosis System for Alzheimer's",
+        "period": "APR 2024 - APR 2025",
+        "supervisor": "Extracurricular Research Project",
+        "description": [
+          "Utilized a hybrid CNN-Transformer-MLP model to analyze EEG data, aiming to improve Alzheimer's disease prediction accuracy.",
+          "Led the full data processing pipeline from raw data to analysis-ready using EEGLab (Matlab) and MNE-Python.",
+          "Independently developed a front-end interface with HTML/CSS/JS for real-time data rendering and user interaction, delivering the project within one week.",
+          "Based on the results, a second project was established to generalize the model for other conditions like Parkinson's disease."
+        ],
+        "publications": []
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Software Engineering",
+        "school": "South China Normal University (SCNU)",
+        "period": "2023 - 2027",
+        "courses": "Relevant Courses: Object-Oriented Programming (Python), Computer Networks, Large-Scale Database Systems, Software System Design.",
+        "link": "http://www.scnu.edu.cn/"
+      }
+    ]
+  },
+  "footer": "Designed & Built by Albert Chen."
+}
