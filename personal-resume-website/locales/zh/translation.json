@@ -1,0 +1,87 @@
+
+{
+  "name": "陈圳铅",
+  "title": "软件工程专业大三学生 / Agent开发",
+  "motto": "未来希望投身于Agent相关领域。",
+  "avatarUrl": "https://youke2.picui.cn/s1/2025/12/16/6941550171597.jpg",
+  "socials": {
+    "github": "https://github.com/Czq005430",
+    "email": "mailto:3098802452@qq.com"
+  },
+  "nav": {
+    "about": "关于",
+    "experience": "经历",
+    "projects": "项目",
+    "research": "科研",
+    "education": "教育"
+  },
+  "about": {
+    "title": "关于我",
+    "p1": "你好！我是陈圳铅(Albert Chen)，目前是一名华南师范大学软件工程专业的大三学生，我对软件开发充满热情，尤其是在智能系统和自动化领域，未来希望能够深入探索并从事Agent开发、人工智能应用等相关工作。",
+    "p2": "我目前的主要发展方向是Agent开发、机器学习和全栈工程方面的实践技能。我总是在寻找新的挑战和机会来学习、成长，将热情转化为我的动力。",
+    "download_cv": "下载简历"
+  },
+  "experience": {
+    "title": "实习经历",
+    "items": [
+      {
+        "date": "2025年7月 - 2025年9月",
+        "title": "数字化产品与智能流程实习生",
+        "company": "惠州亿纬锂能 (数字经济部)",
+        "link": "https://www.evebattery.com/",
+        "description": [
+          "设计与开发了“新闻资讯智能筛选”与“企业信息批量获取”等B2B应用的RPA+AI自动化流程。",
+          "通过影刀RPA模拟人工操作，集成AI模块(Python脚本)，实现了对道琼斯等平台上万家企业信息的自动查询与结构化导出。",
+          "深入学习字节Coze平台，负责“智能问数”产品的功能测试，编写并执行测试用例，梳理产品功能点，确保了产品的交付质量。"
+        ],
+        "skills": ["影刀RPA", "Python", "Coze", "Sketch"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "个人项目",
+    "items": [
+      {
+        "name": "LangChain SQL生成器Agent",
+        "link": "https://github.com/Czq005430/Langchain-SQL-Agent.git",
+        "description": "该项目能自动化地将自然语言问题转化为SQL查询并执行，帮助非技术人员直接与数据库交互。项目亮点在于结合了先进的NLP技术和灵活的代理架构（LangChain），提高了系统的可扩展性和用户体验。",
+        "stack": ["Langchain", "Python", "MySQL", "DeepSeek API"]
+      },
+      {
+        "name": "全国大学生数学建模竞赛 (H奖)",
+        "description": "作为队长，构建了农业决策优化模型以解决作物种植问题。采用Python(pandas)与Excel构建数据流水线，并基于PuLP库开发混合整数规划(MIP)模型，处理10余种土地约束，并使用“模拟退火算法”优化求解。",
+        "stack": ["Python", "Excel", "SPSS", "PuLP"]
+      }
+    ]
+  },
+  "research": {
+    "title": "科研课题",
+    "items": [
+      {
+        "topic": "深度学习辅助的阿尔茨海默症脑电诊断系统",
+        "period": "2024年4月 - 2025年4月",
+        "supervisor": "课外科研项目",
+        "description": [
+          "采用CNN-Transformer-MLP混合深度学习模型分析EEG脑电数据,以提升阿尔茨海默症(AD)的预测精度。",
+          "负责数据清洗与分序、前端页面开发。基于EEGLab(Matlab)+MNE-Python工具链,主导从原始数据到分析就绪的全流程处理。",
+          "依托HBuilderX高效环境,运用原生技术栈(HTML/CSS/JavaScript)在1周内独立交付,实现实时数据渲染与用户操作反馈。",
+          "基于研究成果提出并立项第二项目《基于混合神经网络的脑电信号特征泛化与多病种预测研究》,将模型延伸至帕金森等多病种预测场景。"
+        ],
+        "publications": []
+      }
+    ]
+  },
+  "education": {
+    "title": "教育背景",
+    "items": [
+      {
+        "degree": "软件工程",
+        "school": "华南师范大学 (SCNU)",
+        "period": "2023 - 2027",
+        "courses": "相关课程：Python面向对象编程、计算机网络、大型数据库系统、软件系统设计等。",
+        "link": "http://www.scnu.edu.cn/"
+      }
+    ]
+  },
+  "footer": "Designed & Built by Albert Chen."
+}
