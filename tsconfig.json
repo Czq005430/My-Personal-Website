@@ -1,0 +1,14 @@
+{
+  "extends": "./personal-resume-website/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "node"
+    ]
+  },
+  "include": [
+    "index.tsx",
+    "personal-resume-website/**/*.ts",
+    "personal-resume-website/**/*.tsx"
+  ]
+}

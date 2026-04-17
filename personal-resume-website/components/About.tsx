@@ -17,7 +17,7 @@ const About: React.FC = () => {
         <p>{t('about.p2')}</p>
       </div>
       <div className="mt-12">
-        <a href="https://youke2.picui.cn/s1/2025/12/17/6942011a81a19.png" target="_blank" rel="noopener noreferrer" download="Albert-Chen-Resume.png" className="inline-flex items-center font-medium leading-tight text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+        <a href="/chenzhenqian_cv.pages" download="chenzhenqian_cv.pages" className="inline-flex items-center font-medium leading-tight text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 rounded-lg px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
             <DownloadIcon />
             <span>{t('about.download_cv')}</span>
         </a>

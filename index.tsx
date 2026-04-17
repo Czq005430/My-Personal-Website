@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './personal-resume-website/App';  // 更新路径
-import './public/locales/i18n'; // Initialize i18next
+import App from './personal-resume-website/App';
+import './personal-resume-website/locales/i18n';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
