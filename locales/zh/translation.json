@@ -1,0 +1,95 @@
+{
+  "name": "陈圳铅 Albert Chen",
+  "title": "软件工程专业学生 / AI Agent 与自动化开发实践者",
+  "motto": "聚焦 Agent、工作流自动化与 AI 应用落地。",
+  "avatarUrl": "https://youke2.picui.cn/s1/2025/12/16/6941550171597.jpg",
+  "socials": {
+    "github": "https://github.com/Czq005430",
+    "email": "mailto:3098802452@qq.com"
+  },
+  "nav": {
+    "about": "关于",
+    "experience": "经历",
+    "projects": "项目",
+    "research": "科研",
+    "education": "教育"
+  },
+  "about": {
+    "title": "关于我",
+    "p1": "你好，我是陈圳铅（Albert Chen），华南师范大学软件工程专业在读，持续关注 AI Agent、工作流自动化和数据智能应用方向。最近的实践主要集中在将大模型、Agent 框架与业务流程结合，做出能够真正提升效率的产品与工具。",
+    "p2": "我有字节跳动与亿纬锂能的相关实习经历，做过 Agent 工作流设计、RPA+AI 自动化、数据分析与可视化应用，也参与过科研与建模项目。我希望继续在 Agent 开发、AI 应用工程化和智能流程方向深入发展。",
+    "download_cv": "下载简历"
+  },
+  "experience": {
+    "title": "实习经历",
+    "items": [
+      {
+        "date": "2026年1月 - 至今",
+        "title": "AI 数据提效实习生",
+        "company": "字节跳动 · dmc-文本大模型（搜索）",
+        "description": [
+          "参与文本大模型搜索场景下的数据提效工作，围绕 Python、Agent、LangGraph、OpenCrawl、Codex、Trae 等工具链开展自动化流程开发。",
+          "负责自动化流程开发与迭代，设计 Agent 工作流以处理复杂数据任务，提升数据处理效率与交付稳定性。"
+        ],
+        "skills": ["Python", "Agent", "LangGraph", "OpenCrawl", "Codex", "Trae"]
+      },
+      {
+        "date": "2025年7月 - 2025年9月",
+        "title": "自动化流程开发实习生",
+        "company": "惠州亿纬锂能（数字经济部）",
+        "link": "https://www.evebattery.com/",
+        "description": [
+          "负责 RPA+AI 自动化流程开发，面向道琼斯等平台设计企业信息批量获取流程，通过影刀 RPA 模拟人工操作，并集成 Python AI 模块完成自动查询、清洗与结构化。",
+          "将上级要求时间范围内完成任务的人工流程转化为全自动化流程，单次任务处理时间从人日级缩短至小时级，信息处理准确率达到 95%，获得业务部门书面好评。",
+          "参与 AI Agent 与工作流开发，基于 Coze 和扣子平台设计新闻资讯智能筛选等 Agent，通过精细化 Prompt 编写与 Workflow 编排，将新闻抓取、分类与导出流程的处理时间由日级压缩到分钟级。"
+        ],
+        "skills": ["Python", "影刀RPA", "Coze", "Prompt Engineering"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "个人项目",
+    "items": [
+      {
+        "name": "DataAgent - 数据分析与可视化 Agent",
+        "description": "构建了一个面向非专业用户的数据分析与可视化 Agent，支持自然语言交互、需求理解、任务拆解和数据分析执行。项目基于 LangChain 构建，串联 FastAPI、React 与 ECharts，形成从文件上传、清洗预处理、数据分析、可视化图表绘制到结果导出的完整链路，并通过 Plan and Execute 机制调用 Pandas、Matplotlib 等工具完成复杂任务。",
+        "stack": ["Python", "LangChain", "FastAPI", "React", "ECharts", "Prompt Engineering"]
+      },
+      {
+        "name": "全国大学生数学建模竞赛（H奖）",
+        "description": "作为队长，围绕农业种植决策问题构建优化模型。使用 Python（pandas）与 Excel 搭建数据处理流程，并基于 PuLP 建立混合整数规划模型，在多土地约束条件下完成求解与优化，最终获得全国大学生数学建模竞赛 H 奖。",
+        "stack": ["Python", "Excel", "SPSS", "PuLP"]
+      }
+    ]
+  },
+  "research": {
+    "title": "科研课题",
+    "items": [
+      {
+        "topic": "深度学习辅助的阿尔茨海默症脑电诊断系统",
+        "period": "2024年4月 - 2025年4月",
+        "supervisor": "国家级大创项目",
+        "description": [
+          "围绕阿尔茨海默症脑电数据分析，采用 CNN-Transformer-MLP 混合深度学习模型进行 EEG 脑电数据建模，以提升对 AD 的预测精度。",
+          "负责数据清洗与分序、前端页面开发，基于 EEGLab（Matlab）与 MNE-Python 工具链主导从原始数据到分析就绪数据的处理流程。",
+          "依托 HBuilderX 与原生 HTML/CSS/JavaScript 技术栈，在一周内完成前端页面交付，实现实时数据渲染与用户操作反馈。",
+          "项目在验证集上取得 83.5% 准确率，在测试集上取得 99.77% 准确率；基于研究成果进一步提出省级大创项目，将模型延伸到癫痫、癌痛等多病种预测场景。"
+        ],
+        "publications": []
+      }
+    ]
+  },
+  "education": {
+    "title": "教育背景",
+    "items": [
+      {
+        "degree": "软件工程",
+        "school": "华南师范大学（SCNU）",
+        "period": "2023年9月 - 至今",
+        "courses": "主修课程：Python 面向对象编程、软件系统设计、算法设计等。英语能力：通过 CET-4/6，具备流利的英语阅读和写作能力，可胜任英文技术文档阅读。",
+        "link": "http://www.scnu.edu.cn/"
+      }
+    ]
+  },
+  "footer": "Designed & Built by Albert Chen."
+}

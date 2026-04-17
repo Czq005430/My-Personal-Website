@@ -1,0 +1,96 @@
+{
+  "name": "Albert Chen",
+  "title": "Software Engineering Student / AI Agent & Automation Builder",
+  "motto": "Focused on AI agents, workflow automation, and applied AI products.",
+  "avatarUrl": "https://youke2.picui.cn/s1/2025/12/16/6941550171597.jpg",
+  "socials": {
+    "github": "https://github.com/Czq005430",
+    "linkedin": "https://linkedin.com",
+    "email": "mailto:3098802452@qq.com"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "research": "Research",
+    "education": "Education"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I am Albert Chen, a Software Engineering student at South China Normal University, currently focused on AI agents, workflow automation, and data-driven AI applications. My recent work centers on combining large models, agent frameworks, and business processes into tools that deliver real efficiency gains.",
+    "p2": "I have internship experience at ByteDance and EVE Energy, where I worked on agent workflow design, RPA plus AI automation, and data-centric applications. I also built research and modeling projects, and I want to keep growing in agent development, applied AI engineering, and intelligent process automation.",
+    "download_cv": "Download CV"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "date": "JAN 2026 - PRESENT",
+        "title": "AI Data Efficiency Intern",
+        "company": "ByteDance · DMC Text LLM (Search)",
+        "description": [
+          "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenCrawl, Codex, and Trae.",
+          "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
+        ],
+        "skills": ["Python", "Agent", "LangGraph", "OpenCrawl", "Codex", "Trae"]
+      },
+      {
+        "date": "JUL 2025 - SEP 2025",
+        "title": "Automation Workflow Development Intern",
+        "company": "EVE Energy (Digital Economy Dept.)",
+        "link": "https://www.evebattery.com/",
+        "description": [
+          "Developed RPA plus AI workflows for large-scale enterprise information retrieval on platforms such as Dow Jones, combining ShadowBot RPA with Python-based AI modules for automated querying, cleaning, and structuring.",
+          "Converted labor-intensive business tasks into fully automated workflows, reducing single-task turnaround from person-day scale to hour scale while reaching 95% information-processing accuracy and earning written recognition from the business team.",
+          "Contributed to AI agent and workflow development on Coze and Doubao-based platforms, building agents for intelligent news screening through prompt design and workflow orchestration, reducing processing time from day scale to minute scale."
+        ],
+        "skills": ["Python", "ShadowBot RPA", "Coze", "Prompt Engineering"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "DataAgent - Data Analysis and Visualization Agent",
+        "description": "Built a data analysis and visualization agent for non-technical users, supporting natural-language interaction, requirement understanding, task decomposition, and analysis execution. The project is built around LangChain and connects FastAPI, React, and ECharts into a full pipeline covering file upload, preprocessing, analysis, chart generation, and result export, with a Plan-and-Execute mechanism that calls tools such as Pandas and Matplotlib for complex tasks.",
+        "stack": ["Python", "LangChain", "FastAPI", "React", "ECharts", "Prompt Engineering"]
+      },
+      {
+        "name": "National Mathematical Modeling Competition (H Prize)",
+        "description": "As team leader, built an optimization model for agricultural planting decisions. I used Python (pandas) and Excel to create the data workflow, then built a mixed-integer programming model with PuLP under multiple land constraints and delivered an award-winning solution in the national competition.",
+        "stack": ["Python", "Excel", "SPSS", "PuLP"]
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "items": [
+      {
+        "topic": "Deep Learning-Assisted EEG Diagnosis System for Alzheimer's Disease",
+        "period": "APR 2024 - APR 2025",
+        "supervisor": "National Undergraduate Innovation Project",
+        "description": [
+          "Built an EEG analysis workflow for Alzheimer's disease prediction with a hybrid CNN-Transformer-MLP model to improve prediction accuracy.",
+          "Handled data cleaning, sequencing, and front-end development, leading the processing pipeline from raw EEG data to analysis-ready datasets with EEGLab (Matlab) and MNE-Python.",
+          "Delivered the front-end interface within one week using HBuilderX and native HTML, CSS, and JavaScript, enabling real-time data rendering and interaction feedback.",
+          "The project reached 83.5% accuracy on the validation set and 99.77% on the test set, and the results later supported a provincial innovation project extending the model to additional disease prediction scenarios."
+        ],
+        "publications": []
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Software Engineering",
+        "school": "South China Normal University (SCNU)",
+        "period": "SEP 2023 - PRESENT",
+        "courses": "Relevant coursework: Object-Oriented Programming in Python, Software System Design, and Algorithm Design. English: CET-4 and CET-6, with strong technical reading and writing ability for English documentation.",
+        "link": "http://www.scnu.edu.cn/"
+      }
+    ]
+  },
+  "footer": "Designed & Built by Albert Chen."
+}
