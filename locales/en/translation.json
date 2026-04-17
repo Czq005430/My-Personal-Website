@@ -27,7 +27,7 @@
       {
         "date": "JAN 2026 - PRESENT",
         "title": "AI Data Efficiency Intern",
-        "company": "ByteDance · DMC Text LLM (Search)",
+        "company": "ByteDance · AI Data & Safety Text LLM (Search)",
         "description": [
           "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenClaw, Codex, and Trae.",
           "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
