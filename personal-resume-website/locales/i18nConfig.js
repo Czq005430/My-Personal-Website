@@ -3,6 +3,7 @@ export const i18nConfig = {
   supportedLngs: ['zh', 'en'],
   load: 'languageOnly',
   fallbackLng: 'zh',
+  initImmediate: false,
   interpolation: {
     escapeValue: false,
   },
@@ -14,3 +15,8 @@ export const i18nConfig = {
     caches: ['localStorage'],
   },
 };
+
+export const createI18nOptions = (overrides = {}) => ({
+  ...i18nConfig,
+  ...overrides,
+});
