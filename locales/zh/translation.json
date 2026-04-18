@@ -1,5 +1,5 @@
 {
-  "name": "陈圳铅 Albert Chen",
+  "name": "陈圳铅",
   "title": "软件工程专业学生 / AI Agent 与自动化开发实践者",
   "motto": "聚焦 Agent、工作流自动化与 AI 应用落地。",
   "avatarUrl": "./avatar.jpg",
@@ -17,7 +17,7 @@
   "about": {
     "title": "关于我",
     "p1": "你好，我是陈圳铅（Albert Chen），华南师范大学软件工程专业在读，持续关注 AI Agent、工作流自动化和数据智能应用方向。最近的实践主要集中在将大模型、Agent 框架与业务流程结合，做出能够真正提升效率的产品与工具。",
-    "p2": "我有字节跳动与亿纬锂能的相关实习经历，做过 Agent 工作流设计、RPA+AI 自动化、数据分析与可视化应用，也参与过科研与建模项目。我希望继续在 Agent 开发、AI 应用工程化和智能流程方向深入发展。",
+    "p2": "我做过 Agent 工作流设计、RPA+AI 自动化、数据分析与可视化应用，也参与过科研与建模项目。我希望继续在 Agent 开发、AI 应用工程化和智能流程方向深入发展。",
     "download_cv": "下载简历"
   },
   "experience": {
@@ -26,12 +26,12 @@
       {
         "date": "2026年1月 - 至今",
         "title": "AI 数据提效实习生",
-        "company": "字节跳动 · dmc-文本大模型（搜索）",
+        "company": "字节跳动 · AI Data & Safety（搜索）",
         "description": [
-          "参与文本大模型搜索场景下的数据提效工作，围绕 Python、Agent、LangGraph、OpenCrawl、Codex、Trae 等工具链开展自动化流程开发。",
+          "参与文本大模型搜索场景下的数据提效工作，围绕 Python、Agent、LangGraph、OpenClaw、Codex、Trae 等工具链开展自动化流程开发。",
           "负责自动化流程开发与迭代，设计 Agent 工作流以处理复杂数据任务，提升数据处理效率与交付稳定性。"
         ],
-        "skills": ["Python", "Agent", "LangGraph", "OpenCrawl", "Codex", "Trae"]
+        "skills": ["Python", "Agent", "LangGraph", "OpenClaw", "Codex", "Trae"]
       },
       {
         "date": "2025年7月 - 2025年9月",
@@ -86,7 +86,8 @@
         "degree": "软件工程",
         "school": "华南师范大学（SCNU）",
         "period": "2023年9月 - 至今",
-        "courses": "主修课程：Python 面向对象编程、软件系统设计、算法设计等。英语能力：通过 CET-4/6，具备流利的英语阅读和写作能力，可胜任英文技术文档阅读。",
+        "courses": "主修课程：Python 面向对象编程、软件系统设计、算法设计等。",
+        "language": "语言能力：通过 CET-4/6，具备流利的英语阅读和写作能力，可胜任英文技术文档阅读。",
         "link": "http://www.scnu.edu.cn/"
       }
     ]
