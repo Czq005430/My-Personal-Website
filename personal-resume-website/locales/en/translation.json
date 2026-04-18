@@ -2,7 +2,7 @@
   "name": "Albert Chen",
   "title": "Software Engineering Student / AI Agent & Automation Builder",
   "motto": "Focused on AI agents, workflow automation, and applied AI products.",
-  "avatarUrl": "https://youke2.picui.cn/s1/2025/12/16/6941550171597.jpg",
+  "avatarUrl": "./avatar.jpg",
   "socials": {
     "github": "https://github.com/Czq005430",
     "linkedin": "https://linkedin.com",
@@ -29,10 +29,10 @@
         "title": "AI Data Efficiency Intern",
         "company": "ByteDance · DMC Text LLM (Search)",
         "description": [
-          "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenCrawl, Codex, and Trae.",
+          "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenClaw, Codex, and Trae.",
           "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
         ],
-        "skills": ["Python", "Agent", "LangGraph", "OpenCrawl", "Codex", "Trae"]
+        "skills": ["Python", "Agent", "LangGraph", "OpenClaw", "Codex", "Trae"]
       },
       {
         "date": "JUL 2025 - SEP 2025",

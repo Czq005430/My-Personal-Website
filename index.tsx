@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './personal-resume-website/App';
 import './personal-resume-website/locales/i18n';
+import './styles.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
