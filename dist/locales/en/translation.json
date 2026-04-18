@@ -1,12 +1,11 @@
 {
-  "name": "Albert Chen",
-  "title": "Software Engineering Student / AI Agent & Automation Builder",
-  "motto": "Focused on AI agents, workflow automation, and applied AI products.",
+  "name": "Ruimin Huang",
+  "title": "Artificial Intelligence Student / AI Agent Developer",
+  "motto": "Focused on AI agent development, solution architecture, and AI application implementation.",
   "avatarUrl": "./avatar.jpg",
   "socials": {
-    "github": "https://github.com/Czq005430",
-    "linkedin": "https://linkedin.com",
-    "email": "mailto:3098802452@qq.com"
+    "github": "https://github.com",
+    "email": "mailto:h.ruimin@outlook.com"
   },
   "nav": {
     "about": "About",
@@ -16,44 +15,54 @@
     "education": "Education"
   },
   "hero": {
-    "eyebrow": "AI Agent Engineer · Workflow Builder · Software Engineer",
+    "eyebrow": "AI Agent Developer · Solution Architect · AI Engineer",
     "intro": "Hi, I'm",
-    "nameLines": ["ALBERT", "CHEN"],
-    "roleLine": "AI Agent Builder | Workflow Automation | Productized AI",
-    "summary": "I design practical AI workflows and software systems that turn large-model capability into tools people can actually use.",
+    "nameLines": ["RUIMIN", "HUANG"],
+    "roleLine": "AI Agent Development | Solution Architecture | Intelligent Systems",
+    "summary": "I design and build AI-powered solutions that transform complex business requirements into practical, efficient applications.",
     "primaryCta": "Explore Projects",
     "secondaryCta": "Learn More"
   },
   "about": {
     "title": "About",
-    "p1": "I am Albert Chen, a Software Engineering student at South China Normal University, currently focused on AI agents, workflow automation, and data-driven AI applications. My recent work centers on combining large models, agent frameworks, and business processes into tools that deliver real efficiency gains.",
-    "p2": "I have internship experience at ByteDance and EVE Energy, where I worked on agent workflow design, RPA plus AI automation, and data-centric applications. I also built research and modeling projects, and I want to keep growing in agent development, applied AI engineering, and intelligent process automation.",
+    "p1": "I am Ruimin Huang, an Artificial Intelligence student at South China Normal University, pursuing a dual degree with the University of Aberdeen. I focus on AI agent development, solution architecture, and intelligent application design.",
+    "p2": "I have internship experience at Digital Guangdong, Baidu PaddlePaddle, and Guangdong Academy of Sciences, where I worked on AI audit systems, intelligent customer service agents, and enterprise automation applications. I also lead a provincial innovation project on LLM-based investment advisory classification systems.",
     "download_cv": "Download CV"
   },
   "experience": {
     "title": "Experience",
     "items": [
       {
-        "date": "JAN 2026 - PRESENT",
-        "title": "AI Data Efficiency Intern",
-        "company": "ByteDance · DMC Text LLM (Search)",
+        "date": "JUN 2025 - SEP 2025",
+        "title": "Solution Architecture Intern",
+        "company": "Digital Guangdong Network Construction Co., Ltd.",
         "description": [
-          "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenClaw, Codex, and Trae.",
-          "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
+          "Translated business requirements into technical solutions for AI audit systems, participating in Prompt design and technical roadmap planning.",
+          "Participated in audit standards and process design for pollutant monitoring and inspection scenarios.",
+          "Built AI audit agent prototypes based on the Dify platform, applying natural language processing technology to automated audit scenarios.",
+          "Supported project delivery through documentation preparation and quality management planning."
         ],
-        "skills": ["Python", "Agent", "LangGraph", "OpenClaw", "Codex", "Trae"]
+        "skills": ["AI Audit", "Prompt Design", "Dify", "NLP"]
       },
       {
-        "date": "JUL 2025 - SEP 2025",
-        "title": "Automation Workflow Development Intern",
-        "company": "EVE Energy (Digital Economy Dept.)",
-        "link": "https://www.evebattery.com/",
+        "date": "JUL 2024 - AUG 2024",
+        "title": "AI Agent Development Intern",
+        "company": "Baidu PaddlePaddle (Guangzhou) - Guangdong Yuejiang Industrial Technology Co., Ltd.",
         "description": [
-          "Developed RPA plus AI workflows for large-scale enterprise information retrieval on platforms such as Dow Jones, combining ShadowBot RPA with Python-based AI modules for automated querying, cleaning, and structuring.",
-          "Converted labor-intensive business tasks into fully automated workflows, reducing single-task turnaround from person-day scale to hour scale while reaching 95% information-processing accuracy and earning written recognition from the business team.",
-          "Contributed to AI agent and workflow development on Coze and Doubao-based platforms, building agents for intelligent news screening through prompt design and workflow orchestration, reducing processing time from day scale to minute scale."
+          "Built the core framework for an intelligent digital customer service agent based on Baidu Qianfan AppBuilder, defining dialogue flows and business logic.",
+          "Designed multi-turn dialogue scenarios, combining natural language processing technology to enhance semantic understanding capabilities, and optimized model performance through data training to improve processing accuracy and response speed in common customer consultation scenarios."
         ],
-        "skills": ["Python", "ShadowBot RPA", "Coze", "Prompt Engineering"]
+        "skills": ["Baidu Qianfan", "AppBuilder", "Intelligent Customer Service", "NLP"]
+      },
+      {
+        "date": "JAN 2024 - FEB 2024",
+        "title": "Frontend Development Intern",
+        "company": "Guangdong Academy of Sciences Institute of Intelligent Manufacturing",
+        "description": [
+          "Analyzed the working principles and data output formats of laser trackers, developed WinForm desktop applications using C#, integrated laser tracker APIs, and implemented real-time coordinate data acquisition and visualization.",
+          "Designed and implemented data storage modules to save coordinate data in structured formats for subsequent analysis, improving usability and efficiency."
+        ],
+        "skills": ["C#", "WinForm", "API Integration", "Data Visualization"]
       }
     ]
   },
@@ -61,14 +70,14 @@
     "title": "Projects",
     "items": [
       {
-        "name": "DataAgent - Data Analysis and Visualization Agent",
-        "description": "Built a data analysis and visualization agent for non-technical users, supporting natural-language interaction, requirement understanding, task decomposition, and analysis execution. The project is built around LangChain and connects FastAPI, React, and ECharts into a full pipeline covering file upload, preprocessing, analysis, chart generation, and result export, with a Plan-and-Execute mechanism that calls tools such as Pandas and Matplotlib for complex tasks.",
-        "stack": ["Python", "LangChain", "FastAPI", "React", "ECharts", "Prompt Engineering"]
+        "name": "LLM-Based Investment Advisory Classification System",
+        "description": "Conducted in-depth research on financial industry needs for commodity market information, selected large language model solutions (such as GPT series), and performed model fine-tuning for specific scenarios. Designed and developed the system core architecture, including data input, text analysis, and classification output modules; continuously optimized model performance through iterative testing to improve classification accuracy and response speed. Established evaluation metrics (such as precision, recall) for quantitative assessment of system effectiveness.",
+        "stack": ["Python", "GPT", "Large Language Models", "Text Classification", "Model Fine-tuning"]
       },
       {
-        "name": "National Mathematical Modeling Competition (H Prize)",
-        "description": "As team leader, built an optimization model for agricultural planting decisions. I used Python (pandas) and Excel to create the data workflow, then built a mixed-integer programming model with PuLP under multiple land constraints and delivered an award-winning solution in the national competition.",
-        "stack": ["Python", "Excel", "SPSS", "PuLP"]
+        "name": "Why is the New Gaokao Policy Favored?",
+        "description": "First Prize in South China Normal University Winter Social Practice Research Competition. Built a dual-chain mediation model based on academic and career perspectives, proposing research hypotheses on the relationships between policy satisfaction, academic performance, and career development. Used SPSS 4.0 for descriptive statistics and correlation analysis to explore variable relationships; used Mplus 7.0 to build and validate structural equation models (SEM), assessing model fit and significance.",
+        "stack": ["SPSS", "Mplus", "Structural Equation Modeling", "Data Analysis"]
       }
     ]
   },
@@ -76,14 +85,23 @@
     "title": "Research",
     "items": [
       {
-        "topic": "Deep Learning-Assisted EEG Diagnosis System for Alzheimer's Disease",
-        "period": "APR 2024 - APR 2025",
-        "supervisor": "National Undergraduate Innovation Project",
+        "topic": "LLM-Based Investment Advisory Classification System",
+        "period": "NOV 2023 - PRESENT",
+        "supervisor": "Provincial Undergraduate Innovation and Entrepreneurship Training Program",
         "description": [
-          "Built an EEG analysis workflow for Alzheimer's disease prediction with a hybrid CNN-Transformer-MLP model to improve prediction accuracy.",
-          "Handled data cleaning, sequencing, and front-end development, leading the processing pipeline from raw EEG data to analysis-ready datasets with EEGLab (Matlab) and MNE-Python.",
-          "Delivered the front-end interface within one week using HBuilderX and native HTML, CSS, and JavaScript, enabling real-time data rendering and interaction feedback.",
-          "The project reached 83.5% accuracy on the validation set and 99.77% on the test set, and the results later supported a provincial innovation project extending the model to additional disease prediction scenarios."
+          "Conducted in-depth research on financial industry needs for commodity market information, selected large language model solutions (such as GPT series), and performed model fine-tuning for specific scenarios.",
+          "Designed and developed the system core architecture, including data input, text analysis, and classification output modules; continuously optimized model performance through iterative testing.",
+          "Established evaluation metrics (such as precision, recall) for quantitative assessment of system effectiveness."
+        ],
+        "publications": []
+      },
+      {
+        "topic": "Why is the New Gaokao Policy Favored?",
+        "period": "JAN 2023 - MAR 2023",
+        "supervisor": "First Prize in Winter Social Practice Research Competition",
+        "description": [
+          "Built a dual-chain mediation model based on academic and career perspectives, proposing research hypotheses on relationships between policy satisfaction, academic performance, and career development.",
+          "Used SPSS 4.0 for descriptive statistics and correlation analysis; used Mplus 7.0 to build and validate structural equation models (SEM)."
         ],
         "publications": []
       }
@@ -93,14 +111,22 @@
     "title": "Education",
     "items": [
       {
-        "degree": "Software Engineering",
+        "degree": "Artificial Intelligence",
         "school": "South China Normal University (SCNU)",
-        "period": "SEP 2023 - PRESENT",
-        "courses": "Relevant coursework: Object-Oriented Programming in Python, Software System Design, and Algorithm Design.",
-        "language": "Language: CET-4 and CET-6, with strong technical reading and writing ability for English documentation.",
+        "period": "SEP 2022 - JUN 2026",
+        "courses": "Relevant coursework: Python Programming, Linear Algebra, Advanced Mathematics, Discrete Mathematics, JAVA Programming, Web Application Development, Database Systems, AI Fundamentals, Machine Learning, Deep Learning.",
+        "language": "Honors: First-Class Comprehensive Scholarship",
         "link": "http://www.scnu.edu.cn/"
+      },
+      {
+        "degree": "Artificial Intelligence (Dual Degree)",
+        "school": "University of Aberdeen, UK",
+        "period": "SEP 2022 - JUN 2026",
+        "courses": "CGPA: 18.38",
+        "language": "Dual Bachelor of Science Degree",
+        "link": "https://www.abdn.ac.uk/"
       }
     ]
   },
-  "footer": "Designed & Built by Albert Chen."
+  "footer": "Designed & Built by Ruimin Huang."
 }
