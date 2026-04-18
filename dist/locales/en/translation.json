@@ -15,6 +15,15 @@
     "research": "Research",
     "education": "Education"
   },
+  "hero": {
+    "eyebrow": "AI Agent Engineer · Workflow Builder · Software Engineer",
+    "intro": "Hi, I'm",
+    "nameLines": ["ALBERT", "CHEN"],
+    "roleLine": "AI Agent Builder | Workflow Automation | Productized AI",
+    "summary": "I design practical AI workflows and software systems that turn large-model capability into tools people can actually use.",
+    "primaryCta": "Explore Projects",
+    "secondaryCta": "Learn More"
+  },
   "about": {
     "title": "About",
     "p1": "I am Albert Chen, a Software Engineering student at South China Normal University, currently focused on AI agents, workflow automation, and data-driven AI applications. My recent work centers on combining large models, agent frameworks, and business processes into tools that deliver real efficiency gains.",

@@ -99,3 +99,16 @@ test('中文翻译内容已同步到最新要求', () => {
   assert.equal(typeof zhTranslation.education.items[0].language, 'string');
   assert.doesNotMatch(zhTranslation.education.items[0].courses, /英语能力/);
 });
+
+test('英文版本具备新版 Hero 所需字段', () => {
+  assert.equal(enTranslation.name, 'Albert Chen');
+  assert.equal(typeof enTranslation.hero.eyebrow, 'string');
+  assert.equal(typeof enTranslation.hero.intro, 'string');
+  assert.equal(typeof enTranslation.hero.roleLine, 'string');
+  assert.equal(typeof enTranslation.hero.summary, 'string');
+  assert.equal(typeof enTranslation.hero.primaryCta, 'string');
+  assert.equal(typeof enTranslation.hero.secondaryCta, 'string');
+  assert.equal(Array.isArray(enTranslation.hero.nameLines), true);
+  assert.equal(enTranslation.hero.nameLines.length > 0, true);
+  assert.equal(zhTranslation.hero, undefined);
+});
