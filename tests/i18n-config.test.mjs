@@ -7,6 +7,7 @@ import { createI18nOptions } from '../personal-resume-website/locales/i18nConfig
 import {
   getHeroDisplayName,
   shouldShowTopNavBrand,
+  shouldUseEditorialAbout,
 } from '../personal-resume-website/utils/branding.js';
 
 const zhTranslation = JSON.parse(
@@ -84,6 +85,8 @@ test('实际翻译资源会返回对象和数组而不是 key 字符串', async 
 test('中文页面品牌展示规则符合要求', () => {
   assert.equal(shouldShowTopNavBrand('zh'), false);
   assert.equal(shouldShowTopNavBrand('en'), true);
+  assert.equal(shouldUseEditorialAbout('zh'), false);
+  assert.equal(shouldUseEditorialAbout('en'), true);
   assert.equal(getHeroDisplayName('zh', '陈圳铅 Albert Chen'), '陈圳铅');
   assert.equal(getHeroDisplayName('en', 'Albert Chen'), 'Albert Chen');
 });

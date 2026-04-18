@@ -3,9 +3,53 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Section from './Section';
 import { DownloadIcon } from './icons/SocialIcons';
+import { shouldUseEditorialAbout } from '../utils/branding';
 
 const About: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language = i18n.resolvedLanguage ?? i18n.language;
+  const useEditorialAbout = shouldUseEditorialAbout(language);
+  const heroNameLines = t('hero.nameLines', { returnObjects: true }) as string[] | string;
+  const nameLines = Array.isArray(heroNameLines) ? heroNameLines : [t('name')];
+
+  if (useEditorialAbout) {
+    return (
+      <Section id="about" className="pt-8 lg:pt-12">
+        <div className="hero-editorial hero-editorial--about">
+          <div className="hero-editorial__content">
+            <div className="hero-editorial__copy">
+              <p className="hero-editorial__eyebrow">{t('hero.eyebrow')}</p>
+              <p className="hero-editorial__intro">{t('hero.intro')}</p>
+              <div className="hero-editorial__name">
+                {nameLines.map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </div>
+              <p className="hero-editorial__role">{t('hero.roleLine')}</p>
+              <div className="hero-editorial__divider" />
+              <p className="hero-editorial__summary">{t('hero.summary')}</p>
+              <div className="hero-editorial__cta-row">
+                <a className="hero-editorial__cta hero-editorial__cta--primary" href="#projects">
+                  {t('hero.primaryCta')}
+                </a>
+                <a className="hero-editorial__cta hero-editorial__cta--secondary" href="#experience">
+                  {t('hero.secondaryCta')}
+                </a>
+              </div>
+            </div>
+
+            <div className="hero-editorial__visual">
+              <div className="hero-editorial__card">
+                <div className="hero-editorial__card-inner">
+                  <img src={t('avatarUrl')} alt={t('name')} className="hero-editorial__image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+    );
+  }
 
   return (
     <Section id="about">

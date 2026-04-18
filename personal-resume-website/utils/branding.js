@@ -1,5 +1,5 @@
 export const shouldShowTopNavBrand = (language) => language !== 'zh';
-export const shouldUseEditorialHero = (language) => language !== 'zh';
+export const shouldUseEditorialAbout = (language) => language !== 'zh';
 
 export const getHeroDisplayName = (language, name) => {
   if (language !== 'zh') {

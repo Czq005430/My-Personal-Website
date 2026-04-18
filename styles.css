@@ -47,6 +47,10 @@
   position: relative;
 }
 
+.hero-editorial--about {
+  padding-top: 0.5rem;
+}
+
 .hero-editorial__content {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
@@ -186,14 +190,6 @@
   object-fit: cover;
   border-radius: 1.45rem;
   display: block;
-}
-
-.hero-editorial__socials {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-top: 2rem;
 }
 
 @keyframes heroRise {
