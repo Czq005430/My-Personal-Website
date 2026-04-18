@@ -4,6 +4,10 @@ import i18next from 'i18next';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createI18nOptions } from '../personal-resume-website/locales/i18nConfig.js';
+import {
+  getHeroDisplayName,
+  shouldShowTopNavBrand,
+} from '../personal-resume-website/utils/branding.js';
 
 const zhTranslation = JSON.parse(
   fs.readFileSync(
@@ -75,4 +79,23 @@ test('实际翻译资源会返回对象和数组而不是 key 字符串', async 
   assert.equal(avatarUrl, './avatar.jpg');
   assert.ok(Array.isArray(experienceItems));
   assert.ok(experienceItems.length > 0);
+});
+
+test('中文页面品牌展示规则符合要求', () => {
+  assert.equal(shouldShowTopNavBrand('zh'), false);
+  assert.equal(shouldShowTopNavBrand('en'), true);
+  assert.equal(getHeroDisplayName('zh', '陈圳铅 Albert Chen'), '陈圳铅');
+  assert.equal(getHeroDisplayName('en', 'Albert Chen'), 'Albert Chen');
+});
+
+test('中文翻译内容已同步到最新要求', () => {
+  assert.equal(zhTranslation.name, '陈圳铅');
+  assert.match(zhTranslation.about.p2, /^我做过 Agent 工作流设计/);
+  assert.doesNotMatch(zhTranslation.about.p2, /字节跳动与亿纬锂能/);
+  assert.match(zhTranslation.experience.items[0].company, /AI Data & Safety/);
+  assert.match(zhTranslation.experience.items[0].description[0], /OpenClaw/);
+  assert.equal(zhTranslation.experience.items[0].skills.includes('OpenClaw'), true);
+  assert.equal(zhTranslation.experience.items[0].skills.includes('OpenCrawl'), false);
+  assert.equal(typeof zhTranslation.education.items[0].language, 'string');
+  assert.doesNotMatch(zhTranslation.education.items[0].courses, /英语能力/);
 });

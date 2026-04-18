@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useScrollSpy } from '../hooks/useScrollSpy';
+import { shouldShowTopNavBrand } from '../utils/branding';
 
 const TopNav: React.FC = () => {
     const { t, i18n } = useTranslation();
@@ -42,13 +43,14 @@ const TopNav: React.FC = () => {
         { id: 'research', text: t('nav.research') },
         { id: 'education', text: t('nav.education') }
     ];
+    const showBrand = shouldShowTopNavBrand(i18n.resolvedLanguage ?? i18n.language);
 
     return (
         <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm shadow-md' : ''}`}>
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="flex items-center justify-between h-16">
                     <div className="text-lg font-bold tracking-tight text-slate-900 dark:text-slate-200">
-                        <a href="#">{t('name')}</a>
+                        {showBrand ? <a href="#">{t('name')}</a> : null}
                     </div>
                     
                     {/* Desktop Nav */}

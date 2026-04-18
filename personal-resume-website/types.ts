@@ -31,5 +31,6 @@ export interface EducationItem {
     school: string;
     period: string;
     courses: string;
+    language?: string;
     link?: string;
 }

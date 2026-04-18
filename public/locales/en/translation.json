@@ -87,7 +87,8 @@
         "degree": "Software Engineering",
         "school": "South China Normal University (SCNU)",
         "period": "SEP 2023 - PRESENT",
-        "courses": "Relevant coursework: Object-Oriented Programming in Python, Software System Design, and Algorithm Design. English: CET-4 and CET-6, with strong technical reading and writing ability for English documentation.",
+        "courses": "Relevant coursework: Object-Oriented Programming in Python, Software System Design, and Algorithm Design.",
+        "language": "Language: CET-4 and CET-6, with strong technical reading and writing ability for English documentation.",
         "link": "http://www.scnu.edu.cn/"
       }
     ]

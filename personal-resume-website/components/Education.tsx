@@ -37,6 +37,11 @@ const Education: React.FC = () => {
                         )}
                     </h3>
                     <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{item.courses}</p>
+                    {item.language ? (
+                        <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+                            {item.language}
+                        </p>
+                    ) : null}
                 </div>
             </div>
         ))}
