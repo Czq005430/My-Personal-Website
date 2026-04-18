@@ -49,6 +49,9 @@
 
 .hero-editorial--about {
   padding-top: 0.5rem;
+  min-height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
 }
 
 .hero-editorial__content {
@@ -227,6 +230,12 @@
   .hero-editorial__card {
     width: min(100%, 18rem);
     transform: rotate(4deg);
+  }
+
+  .hero-editorial--about {
+    min-height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 

@@ -8,6 +8,7 @@ import {
   getHeroDisplayName,
   shouldShowTopNavBrand,
   shouldUseEditorialAbout,
+  shouldShowSidebarHero,
 } from '../personal-resume-website/utils/branding.js';
 
 const zhTranslation = JSON.parse(
@@ -87,6 +88,8 @@ test('中文页面品牌展示规则符合要求', () => {
   assert.equal(shouldShowTopNavBrand('en'), true);
   assert.equal(shouldUseEditorialAbout('zh'), false);
   assert.equal(shouldUseEditorialAbout('en'), true);
+  assert.equal(shouldShowSidebarHero('zh'), true);
+  assert.equal(shouldShowSidebarHero('en'), false);
   assert.equal(getHeroDisplayName('zh', '陈圳铅 Albert Chen'), '陈圳铅');
   assert.equal(getHeroDisplayName('en', 'Albert Chen'), 'Albert Chen');
 });
