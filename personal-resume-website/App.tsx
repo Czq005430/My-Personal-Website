@@ -58,7 +58,9 @@ function App() {
             <SectionDivider />
             <div className="lg:flex lg:justify-between lg:gap-16">
               <div className="lg:w-2/5">
-                <Hero sticky="center" className="lg:py-16 py-12" />
+                <div className="lg:sticky lg:top-16 lg:h-[calc(100svh-4rem)] lg:flex lg:items-center">
+                  <Hero sticky="none" className="py-12 lg:py-0" />
+                </div>
               </div>
               <main className="lg:w-3/5 lg:py-16">
                 <FadeInSection>
