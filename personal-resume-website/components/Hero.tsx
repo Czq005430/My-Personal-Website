@@ -6,16 +6,25 @@ import { getHeroDisplayName } from '../utils/branding';
 
 type HeroProps = {
   className?: string;
+  sticky?: 'top' | 'center' | 'none';
 };
 
-const Hero: React.FC<HeroProps> = ({ className }) => {
+const Hero: React.FC<HeroProps> = ({ className, sticky = 'top' }) => {
   const { t, i18n } = useTranslation();
   const language = i18n.resolvedLanguage ?? i18n.language;
   const displayName = getHeroDisplayName(language, t('name'));
   const paddingClasses = className ?? 'lg:py-24 py-20';
+  const stickyClasses =
+    sticky === 'none'
+      ? ''
+      : sticky === 'center'
+        ? 'lg:sticky lg:top-1/2 lg:-translate-y-1/2'
+        : 'lg:sticky lg:top-0';
 
   return (
-    <header className={`lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:flex-col lg:justify-between ${paddingClasses}`}>
+    <header
+      className={`lg:flex lg:max-h-screen lg:flex-col lg:justify-between ${stickyClasses} ${paddingClasses}`.trim()}
+    >
       <div>
         <img src={t('avatarUrl')} alt={t('name')} className="rounded-xl w-48 mb-6 object-cover" />
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-200">
