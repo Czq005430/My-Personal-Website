@@ -35,8 +35,8 @@
     "items": [
       {
         "date": "JAN 2026 - PRESENT",
-        "title": "AI Data Efficiency Intern",
-        "company": "ByteDance · DMC Text LLM (Search)",
+        "title": "ByteDance · AI Data & Safety",
+        "company": "Agent Efficiency Intern",
         "description": [
           "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenClaw, Codex, and Trae.",
           "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
@@ -45,8 +45,8 @@
       },
       {
         "date": "JUL 2025 - SEP 2025",
-        "title": "Automation Workflow Development Intern",
-        "company": "EVE Energy (Digital Economy Dept.)",
+        "title": "EVE Energy · Digital Economy Dept.",
+        "company": "Automation Workflow Development Intern",
         "link": "https://www.evebattery.com/",
         "description": [
           "Developed RPA plus AI workflows for large-scale enterprise information retrieval on platforms such as Dow Jones, combining ShadowBot RPA with Python-based AI modules for automated querying, cleaning, and structuring.",

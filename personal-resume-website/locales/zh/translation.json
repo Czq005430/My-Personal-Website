@@ -25,8 +25,8 @@
     "items": [
       {
         "date": "2026年1月 - 至今",
-        "title": "AI 数据提效实习生",
-        "company": "字节跳动 · AI Data & Safety（搜索）",
+        "title": "字节跳动·AI Data & Safety",
+        "company": "Agent提效实习生",
         "description": [
           "参与文本大模型搜索场景下的数据提效工作，围绕 Python、Agent、LangGraph、OpenClaw、Codex、Trae 等工具链开展自动化流程开发。",
           "负责自动化流程开发与迭代，设计 Agent 工作流以处理复杂数据任务，提升数据处理效率与交付稳定性。"
@@ -35,8 +35,8 @@
       },
       {
         "date": "2025年7月 - 2025年9月",
-        "title": "自动化流程开发实习生",
-        "company": "惠州亿纬锂能（数字经济部）",
+        "title": "惠州亿纬锂能·数字经济部",
+        "company": "自动化流程开发实习生",
         "link": "https://www.evebattery.com/",
         "description": [
           "负责 RPA+AI 自动化流程开发，面向道琼斯等平台设计企业信息批量获取流程，通过影刀 RPA 模拟人工操作，并集成 Python AI 模块完成自动查询、清洗与结构化。",
