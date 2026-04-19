@@ -14,7 +14,7 @@ const About: React.FC = () => {
 
   if (useEditorialAbout) {
     return (
-      <Section id="about" className="pt-8 lg:pt-12">
+      <Section id="about" className="py-0">
         <div className="hero-editorial hero-editorial--about">
           <div className="hero-editorial__content">
             <div className="hero-editorial__copy">

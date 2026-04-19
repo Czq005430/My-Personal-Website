@@ -53,28 +53,35 @@ function App() {
             </main>
           </div>
         ) : (
-          <main className="w-full lg:py-24">
+          <>
             <About />
             <SectionDivider />
-            <FadeInSection>
-              <Experience />
-            </FadeInSection>
-            <SectionDivider />
-            <FadeInSection>
-              <Projects />
-            </FadeInSection>
-            <SectionDivider />
-            <FadeInSection>
-              <Research />
-            </FadeInSection>
-            <SectionDivider />
-            <FadeInSection>
-              <Education />
-            </FadeInSection>
-            <FadeInSection>
-              <Footer />
-            </FadeInSection>
-          </main>
+            <div className="lg:flex lg:justify-between lg:gap-16">
+              <div className="lg:w-2/5">
+                <Hero className="lg:py-16 py-12" />
+              </div>
+              <main className="lg:w-3/5 lg:py-16">
+                <FadeInSection>
+                  <Experience />
+                </FadeInSection>
+                <SectionDivider />
+                <FadeInSection>
+                  <Projects />
+                </FadeInSection>
+                <SectionDivider />
+                <FadeInSection>
+                  <Research />
+                </FadeInSection>
+                <SectionDivider />
+                <FadeInSection>
+                  <Education />
+                </FadeInSection>
+                <FadeInSection>
+                  <Footer />
+                </FadeInSection>
+              </main>
+            </div>
+          </>
         )}
       </div>
     </div>
