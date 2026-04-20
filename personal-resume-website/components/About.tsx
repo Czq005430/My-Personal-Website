@@ -3,6 +3,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Section from './Section';
 import { shouldUseEditorialAbout } from '../utils/branding';
+import Typewriter from './Typewriter';
 
 const About: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -12,6 +13,11 @@ const About: React.FC = () => {
   const nameLines = Array.isArray(heroNameLines) ? heroNameLines : [t('name')];
 
   if (useEditorialAbout) {
+    const roleParts = String(t('hero.roleLine'))
+      .split('|')
+      .map((part) => part.trim())
+      .filter(Boolean);
+
     return (
       <Section id="about" className="py-0">
         <div className="hero-editorial hero-editorial--about">
@@ -21,10 +27,17 @@ const About: React.FC = () => {
               <p className="hero-editorial__intro">{t('hero.intro')}</p>
               <div className="hero-editorial__name">
                 {nameLines.map((line) => (
-                  <span key={line}>{line}</span>
+                  <span
+                    key={line}
+                    className={line.toUpperCase().includes('CHEN') ? 'hero-editorial__name-line hero-editorial__name-line--accent' : 'hero-editorial__name-line'}
+                  >
+                    {line}
+                  </span>
                 ))}
               </div>
-              <p className="hero-editorial__role">{t('hero.roleLine')}</p>
+              <p className="hero-editorial__role">
+                <Typewriter words={roleParts} />
+              </p>
               <div className="hero-editorial__divider" />
               <p className="hero-editorial__summary">{t('hero.summary')}</p>
               <div className="hero-editorial__cta-row">
