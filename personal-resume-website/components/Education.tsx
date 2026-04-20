@@ -24,17 +24,17 @@ const Education: React.FC = () => {
                 <div className="z-10 sm:col-span-6">
                     <h3 className="font-medium leading-snug text-slate-800 dark:text-slate-200">
                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                        <div className="text-base">{item.degree}</div>
                         {item.link ? (
-                            <a href={item.link} target="_blank" rel="noreferrer noopener" className="group/link text-sm" aria-label={`${item.school} (opens in a new tab)`}>
-                                <span className="inline-block text-slate-500 dark:text-slate-400 group-hover/link:text-sky-500 dark:group-hover/link:text-teal-300 transition-colors">
+                            <a href={item.link} target="_blank" rel="noreferrer noopener" className="group/link text-base" aria-label={`${item.school} (opens in a new tab)`}>
+                                <span className="inline-block text-slate-800 dark:text-slate-200 group-hover/link:text-sky-500 dark:group-hover/link:text-teal-300 transition-colors">
                                     {item.school}
                                     <ExternalLinkIcon />
                                 </span>
                             </a>
                         ) : (
-                            <div className="text-slate-500 dark:text-slate-400 text-sm">{item.school}</div>
+                            <div className="text-base">{item.school}</div>
                         )}
+                        <div className="text-slate-500 dark:text-slate-400 text-sm">{item.degree}</div>
                     </h3>
                     <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{item.courses}</p>
                     {item.language ? (

@@ -30,7 +30,7 @@ const Hero: React.FC<HeroProps> = ({ className, sticky = 'top' }) => {
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-200">
           <a href="/">{displayName}</a>
         </h1>
-        <h2 className="mt-3 text-lg md:text-xl font-medium tracking-tight text-slate-900 dark:text-slate-200">
+        <h2 className="mt-3 whitespace-pre-line text-lg md:text-xl font-medium tracking-tight text-slate-900 dark:text-slate-200">
           {t('title')}
         </h2>
         <p className="mt-4 max-w-xs leading-normal text-slate-600 dark:text-slate-400">

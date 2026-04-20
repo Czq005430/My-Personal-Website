@@ -27,10 +27,7 @@ const About: React.FC = () => {
               <p className="hero-editorial__intro">{t('hero.intro')}</p>
               <div className="hero-editorial__name">
                 {nameLines.map((line) => (
-                  <span
-                    key={line}
-                    className={line.toUpperCase().includes('CHEN') ? 'hero-editorial__name-line hero-editorial__name-line--accent' : 'hero-editorial__name-line'}
-                  >
+                  <span key={line} className="hero-editorial__name-line">
                     {line}
                   </span>
                 ))}
