@@ -74,21 +74,14 @@ body {
 }
 
 .site-shell::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(247, 244, 238, 0.28) 32%, rgba(247, 244, 238, 0.5)),
-    radial-gradient(circle at top right, rgba(255, 255, 255, 0.65), transparent 32%);
-  pointer-events: none;
+  content: none;
 }
 
 .site-content {
   position: relative;
-  background: rgba(255, 252, 247, 0.34);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .hero-editorial {
@@ -302,10 +295,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .site-content {
-    background: rgba(255, 252, 247, 0.28);
-  }
-
   .hero-editorial__content {
     grid-template-columns: 1fr;
   }
