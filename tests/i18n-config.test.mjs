@@ -13,14 +13,14 @@ import {
 
 const zhTranslation = JSON.parse(
   fs.readFileSync(
-    path.resolve('public/locales/zh/translation.json'),
+    path.resolve('personal-resume-website/locales/zh/translation.json'),
     'utf8',
   ),
 );
 
 const enTranslation = JSON.parse(
   fs.readFileSync(
-    path.resolve('public/locales/en/translation.json'),
+    path.resolve('personal-resume-website/locales/en/translation.json'),
     'utf8',
   ),
 );
@@ -99,8 +99,8 @@ test('中文翻译内容已同步到最新要求', () => {
   assert.match(zhTranslation.about.p2, /^我做过 Agent 工作流设计/);
   assert.doesNotMatch(zhTranslation.about.p2, /字节跳动与亿纬锂能/);
   assert.equal(zhTranslation.experience.items[0].date, '2026年3月 - 至今');
-  assert.equal(zhTranslation.experience.items[0].title, 'Agent 产品实习生');
-  assert.match(zhTranslation.experience.items[0].company, /Seed - AI Data & Safety/);
+  assert.match(zhTranslation.experience.items[0].title, /Seed - AI Data & Safety/);
+  assert.equal(zhTranslation.experience.items[0].company, 'Agent 产品实习生');
   assert.match(zhTranslation.experience.items[0].description[0], /脱敏质检链路/);
   assert.match(zhTranslation.experience.items[0].description[1], /召回率低于 95%/);
   assert.match(zhTranslation.experience.items[0].description[2], /T\+1 批量处理/);

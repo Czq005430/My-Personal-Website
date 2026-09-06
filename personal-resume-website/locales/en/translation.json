@@ -34,14 +34,15 @@
     "title": "Experience",
     "items": [
       {
-        "date": "JAN 2026 - PRESENT",
-        "title": "ByteDance · AI Data & Safety",
-        "company": "Agent Efficiency Intern",
+        "date": "MAR 2026 - PRESENT",
+        "title": "ByteDance · Seed - AI Data & Safety",
+        "company": "Agent Product Intern",
         "description": [
-          "Worked on data-efficiency tasks for text LLM search scenarios, using a toolchain that includes Python, agents, LangGraph, OpenClaw, Codex, and Trae.",
-          "Built and iterated on automation pipelines, designing agent workflows to handle complex data tasks with better efficiency and delivery stability."
+          "Background: Built a redaction quality-assurance pipeline for data fed back into Seed foundation-model training. The pipeline addresses incomplete redaction of personal and enterprise-sensitive information in internal and external Agent interaction data, preventing non-compliant samples from entering model training and reducing the risk of sensitive-data leakage.",
+          "Process: Designed and implemented an automated redaction QA pipeline. Built an asynchronous task service with FastAPI, used keyword and regular-expression rules for coarse risk-sample screening, and connected a Coze Workflow-based QA Agent. Established entity-level and sample-level Precision, Recall, and F1 metrics, extracted unique identifiers from high-risk entity buckets with recall below 95%, and sent results and anomaly alerts through Lark.",
+          "Outcome: Established a complete closed loop covering coarse-screening recall, Agent classification, metric evaluation, risk blocking, Hive delivery, and notifications. Enabled automated QA across all sensitive entities, T+1 batch processing, and bad-case-driven Prompt and rule iteration, significantly reducing manual review costs while safeguarding training-data compliance."
         ],
-        "skills": ["Python", "Agent", "LangGraph", "OpenClaw", "Codex", "Trae"]
+        "skills": ["Python", "LangChain", "LangGraph", "Coze", "Prompt Engineering", "Codex", "Trae"]
       },
       {
         "date": "JUL 2025 - SEP 2025",
