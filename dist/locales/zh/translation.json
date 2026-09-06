@@ -24,14 +24,15 @@
     "title": "实习经历",
     "items": [
       {
-        "date": "2026年1月 - 至今",
-        "title": "AI 数据提效实习生",
-        "company": "字节跳动 · AI Data & Safety（搜索）",
+        "date": "2026年3月 - 至今",
+        "title": "Agent 产品实习生",
+        "company": "字节跳动 · Seed - AI Data & Safety",
         "description": [
-          "参与文本大模型搜索场景下的数据提效工作，围绕 Python、Agent、LangGraph、OpenClaw、Codex、Trae 等工具链开展自动化流程开发。",
-          "负责自动化流程开发与迭代，设计 Agent 工作流以处理复杂数据任务，提升数据处理效率与交付稳定性。"
+          "背景：负责 Seed 基座模型训练数据回流的脱敏质检链路建设。针对司内外 Agent 交互数据中个人隐私及企业敏感信息脱敏不达标的问题，搭建自动化质检链路，防止不合规数据进入模型训练，降低敏感信息泄露风险。",
+          "过程：设计并实现自动化脱敏质检 Pipeline。基于 FastAPI 构建异步任务服务，通过关键词与正则规则进行风险样本粗筛；接入 Coze Workflow 搭建“质检 Agent”链路，建立实体维度与样本维度的 Precision、Recall、F1 指标体系；对召回率低于 95% 的高风险实体桶提取唯一标识，并通过飞书消息同步结果与异常告警。",
+          "成果：形成“粗筛召回 - Agent 判别 - 指标评估 - 风险拦截 - Hive 交付 - 通知告警”完整闭环，支持所有敏感实体自动化质检，实现 T+1 批量处理与 Badcase 驱动的 Prompt、规则迭代，显著降低人工复核成本，保障训练数据合规性。"
         ],
-        "skills": ["Python", "Agent", "LangGraph", "OpenClaw", "Codex", "Trae"]
+        "skills": ["Python", "LangChain", "LangGraph", "Coze", "Prompt Engineering", "Codex", "Trae"]
       },
       {
         "date": "2025年7月 - 2025年9月",

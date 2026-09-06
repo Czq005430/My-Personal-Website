@@ -98,9 +98,15 @@ test('中文翻译内容已同步到最新要求', () => {
   assert.equal(zhTranslation.name, '陈圳铅');
   assert.match(zhTranslation.about.p2, /^我做过 Agent 工作流设计/);
   assert.doesNotMatch(zhTranslation.about.p2, /字节跳动与亿纬锂能/);
-  assert.match(zhTranslation.experience.items[0].company, /AI Data & Safety/);
-  assert.match(zhTranslation.experience.items[0].description[0], /OpenClaw/);
-  assert.equal(zhTranslation.experience.items[0].skills.includes('OpenClaw'), true);
+  assert.equal(zhTranslation.experience.items[0].date, '2026年3月 - 至今');
+  assert.equal(zhTranslation.experience.items[0].title, 'Agent 产品实习生');
+  assert.match(zhTranslation.experience.items[0].company, /Seed - AI Data & Safety/);
+  assert.match(zhTranslation.experience.items[0].description[0], /脱敏质检链路/);
+  assert.match(zhTranslation.experience.items[0].description[1], /召回率低于 95%/);
+  assert.match(zhTranslation.experience.items[0].description[2], /T\+1 批量处理/);
+  assert.equal(zhTranslation.experience.items[0].skills.includes('LangChain'), true);
+  assert.equal(zhTranslation.experience.items[0].skills.includes('Coze'), true);
+  assert.equal(zhTranslation.experience.items[0].skills.includes('OpenClaw'), false);
   assert.equal(zhTranslation.experience.items[0].skills.includes('OpenCrawl'), false);
   assert.equal(typeof zhTranslation.education.items[0].language, 'string');
   assert.doesNotMatch(zhTranslation.education.items[0].courses, /英语能力/);
